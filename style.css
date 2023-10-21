@@ -1,0 +1,352 @@
+@media (max-width: 768px) {
+    .main {
+        transform: scale(0.3);
+    }
+}
+body {
+    position: relative; 
+    font-family: Times, 'Times New Roman', serif;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw; 
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.main {
+    position: relative; 
+    background-color: white;
+    width: 40%;
+    height: 100vh; 
+    /* display: flex; */
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto; /* กำหนดระยะห่างขอบของ body เป็น 0 */
+} 
+.long {
+    position: relative;
+    background-color: rgb(70, 65, 69);
+    width: 48%;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    display: flex;
+}
+.photo {
+    position: relative;
+    width: auto;
+    height: auto;
+    top: 2%;
+    left: 30%;
+    /* display: flex; */
+    /* flex-wrap: wrap; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;*/
+}
+.contact {
+    position: relative;
+    background-color: rgb(60, 48, 46);
+    width: 68%;
+    height: 4%;
+    top: 30%;
+    margin-left: -38%;
+    font-size: 12px;
+    line-height: 0;
+    color: white;
+    font-weight: bold;
+    display: flex;
+}
+.email {
+    position: relative;
+    width: 40%;
+    height: 30%;
+    top: 68%;
+    margin-left: -33%;
+    font-size: 14px;
+    font-weight: 100;
+}
+    .custom-icon {
+        position: relative;
+        top: 18px; 
+        left: 42px; 
+    }  
+.tel {
+    position: relative;
+    width: 80%;
+    height: 30%;
+    top: -20px;
+    left: 0px;
+    font-size: 12px;
+    font-weight: 100;
+}
+    .custom-icon-container{
+        position: relative;
+        top: 20px; 
+        margin-left: 40px; 
+        font-size: 10px;
+    }  
+.education {
+    position: relative;
+    /* background-color:  rgb(204, 80, 58); */
+    width: 68%;
+    height: 4%;
+    top: 45%;
+    margin-left: -68%;
+    /* display: flex;  */
+}
+.backtext {
+    position: relative;
+    background-color: rgb(60, 48, 46);
+    width: 100%;
+    height: 80%;
+    top: 0px;
+    left: 0px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    /* display: flex; */
+}
+.Taksin {
+    position: relative;
+    width: 100%;
+    height: 40%;
+    top: 0%;
+    margin-left: -10%;
+    font-size: 12px;
+    font-weight: bold;  
+}
+.detail{
+    position: relative;
+    width: 100%;
+    height: 40%;
+    top: -15px;
+    margin-left: 20%;
+    font-size: 12px;
+    font-style: oblique;
+    line-height: 1.5;
+}
+.tatc {
+    position: relative;
+    width: 100%;
+    height: 40%;
+    top: 180%;
+    margin-left: -10%;
+    font-size: 12px;
+    font-weight: bold;
+}
+.detail-tatc {
+    position: relative;
+    width: 100%;
+    height:40%;
+    top: -135%;
+    margin-left: 20%;
+    font-size: 12px;
+    font-style: oblique;
+    line-height: 1.5;
+}
+.kmutnb {
+    position: relative;
+    width: 100%;
+    height: 40%;
+    top: 30%;
+    margin-left: 0%;
+    font-size: 12px;
+    font-weight: bold;
+}
+.detail-kmutnb{
+    position: relative;
+    width: 100%;
+    height: 40%;
+    top: -15px;
+    margin-left: 20%;
+    font-size: 12px;
+    font-style: oblique;
+    line-height: 1.5;
+}
+.skill {
+    position: relative;
+    background-color:  rgb(60, 48, 46); 
+    width: 100%;
+    height: 90%;
+    top: 800%;
+    margin-left: 0%;
+    bottom: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+}
+.detail-skill{
+    position: relative;
+    width: 100%;
+    height: 60%;
+    top: 60%;
+    margin-left: -30%;
+    font-size: 12px;
+    line-height: 1.2;
+} 
+.name {
+    position: relative;
+   /* background-color: aqua;    */
+    width: 150%;
+    height: 150%;
+    top: -1300%;
+    margin-left: 140%;
+    font-weight: bold;
+    font-size: 12.5px;
+    font-family:  'Times New Roman', Times, serif;
+    color:rgb(46, 43, 45);
+    flex-wrap: nowrap;
+}
+.empty {
+    background-color: rgb(60, 48, 46);
+    position: relative;
+    width: 75%;
+    height: 50%;
+    top: -50%;
+    margin-left:-6.5%;
+    /* right: 50px; */
+}
+.ins{
+    position: relative;
+    width: 75%;
+    height: 50%;
+    top: 2%;
+    margin-left: 7%;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+}
+.personal {
+    position: relative;
+    /* background-color: rgb(249, 73, 73);   */
+    width: 140%;
+    height: 1150%;
+    top: -350px;
+    margin-left:140%;
+     border: 2px solid black;/* ขนาดและสีของกรอบ */
+    /* padding: auto; ระยะห่างภายในของกรอบ */
+    /* margin: 0 auto; จัดตำแหน่งกึ่งกลาง */
+    /* display: flex;  */
+}
+.empty-data {
+    background-color: rgb(60, 48, 46);
+    position: absolute;
+    width: 90%;
+    height: 8%;
+    top: 5%;
+    margin-left: -7%;
+    /* display: flex; */
+}
+.data {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    top:-35%;
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 14px;
+    font-family:  'Times New Roman', Times, serif;
+    color:white;
+}
+.de-data{
+    position: relative;
+    width: 90%;
+    height: 1140%;
+    top: 9%;
+    margin-left: 7%;
+    font-size: 18px;
+    line-height: 1.5;
+    color: black;
+}
+.experience {
+    position: relative;
+     /* background-color: rgb(232, 113, 214);  */
+    width: 140%;
+    height: 850%;
+    top: -1100%;
+    margin-left: 140%;
+    border: 2px solid black; /*ขนาดและสีของกรอบ */
+     /* padding: auto; ระยะห่างภายในของกรอบ */
+    /* margin: 0 auto; จัดตำแหน่งกึ่งกลาง */
+    display: flex; 
+}
+.empty-exper{
+    background-color: rgb(60, 48, 46);
+    position: relative;
+    width: 245px;
+    height: 25px;
+    top: -200px;
+    left: -66px;
+    display: flex;
+}
+.exper {
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    top: -20px;
+    left: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family:  'Times New Roman', Times, serif;
+    color:white;
+}
+.ptt{
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    top: 20px;
+    left: 40px;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 1.5;
+}
+.de-ptt {
+    position: absolute;
+    width: 250px;
+    height: 80px;
+    top: 62px;
+    left: 20px;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 1.5;
+    color: black;
+}
+.ady {
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    top: 130px;
+    left: 40px;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 1.5;
+    color: black;
+}
+.de-ady {
+    position: absolute;
+    width: 250px;
+    height: 80px;
+    top: 40px;
+    left: -20px;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 1.5;
+    color: black;
+}
+.vertical-line {
+    position: absolute;
+    border-left: 2px solid black; /* เส้นแนวตั้งสีดำ 1 พิกเซล */
+    height: 116px; /* สูงของเส้นแนวตั้ง */
+    top: 50px;
+    left: 27px;
+    display: flex;
+}
